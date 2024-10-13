@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  display: flex;
+  align-content:flex-start;
+  
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.logo {
+  height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.header{
+  display: flex;
+  text-align: left;
+  height: 150px;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 150px;
+  line-height: 0px;
+  color:#61dafbaa;
+}
+.heading .h1{
+  font-size: 12px;
+}
+
+.tabs{
+  max-width: 45rem;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.tabs menu{
+  display: flex;
+  gap: 0.25rem;
+  height: 2.5rem;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs button{
+  font-size: 0.85rem;
+  background-color: #282f33;
+  border: none;
+  border-bottom-color: #48d9f3;
+  color: #e0eff1;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.tabs button:hover,
+.tabs button.active {
+  background-color: #48d9f3;
+  color: #273133;
+}
+
+.tab-content {
+  background-color: #2d3942;
+  border-radius: 0 4px 4px 4px;
+  padding: 1rem;
+}
+
+.tab-content li {
+  margin: 0.75rem 0;
+}
+
